@@ -1,0 +1,230 @@
+.loginMain {
+  width: 100vw;
+  height: 100vh;
+}
+
+#backgroundHeader {
+  background-color: #FB727C;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.isotype {
+  width: 133px;
+  padding: 12px;
+}
+
+#loginOutBtn {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  padding-right: 13px;
+  float: right;
+}
+
+.loginOutIcon {
+  height: 40px;
+  float: right;
+}
+
+.infoRegisterHeader{
+  background-color: black;
+  border: none;
+}
+
+#postForm {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-color: #471F54;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1.8px;
+  height: 170px;
+  width: 335px;
+  left: 50%;
+  top: 24%;
+}
+
+.userInfoPost {
+  padding: 10px;
+  margin: 10px;
+  height: 88px;
+  width: 296px;
+  border: none;
+  background-color: #EDE9EE;
+  border-radius: 7px;
+  resize: none;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  color: #8E8989;
+}
+
+.userInfoPost::placeholder {
+  font-size: 15px;
+  font-style: italic;
+}
+
+#buttonPost {
+  cursor: pointer;
+  background-color: #471F54;
+  border-radius: 25px;
+  border: none;
+  height: 25px;
+  width: 102px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.buttonTrashStyle {
+  height: 25px;
+  width: auto;
+  float: right;
+}
+
+.btn-Trash {
+  cursor: pointer;
+  background-color: #FB727C;
+  border-radius: 25px;
+  border: none;
+  height: 25px;
+  width: 79px;
+  color: white;
+  font-size: 15px;
+  margin: 19px;
+}
+
+#postContainerFriend1 {
+  display: grid;
+  align-items: center;
+  transform: translate(7%, 115%);
+  height: 191px;
+  width: auto;
+}
+
+.postFriendStyle {
+  background-color: #471F54;
+  border-radius: 10px 10px 0px 0px;
+  height: 40px;
+  width: 339px;
+  margin-left: -2px;
+  margin-top: -2px;
+}
+
+.equisIcon {
+  height: 14px;
+  width: auto;
+  float: right;
+  margin: 13px 10px
+}
+
+.cloudTxtIcon {
+  height: 27px;
+  width: auto;
+  float: left;
+  margin: 8px 9px
+}
+
+.txtFriendStyle {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  color: #8E8989;
+  margin: 25px;
+  width: 281px;
+  border: none;
+  resize: none;
+}
+
+.likesAndCommentsStyle {
+  background-color: #FEDCDE;
+  border-radius: 0px 0px 10px 10px;
+  height: 45px;
+  width: 336px;
+  display: flex;
+  align-items: center;
+}
+.btn-Edit {
+  cursor: pointer;
+  background-color: #FB727C;
+  border-radius: 25px;
+  border: none;
+  height: 25px;
+  width: 79px;
+  color: white;
+  font-size: 15px;
+  margin: 22px;
+}
+
+.btn-Like {
+  cursor: pointer;
+  background-color: #471F54;
+  border-radius: 25px;
+  border: none;
+  height: 25px;
+  width: 79px;
+  color: white;
+  font-size: 15px;
+  margin: 22px;
+}
+
+/*#buttonLikes {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}*/
+
+.likesCounterStyle {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  color: #471F54;
+}
+
+.buttonCommentStyle {
+  height: 35px;
+  width: auto;
+}
+
+#buttonComment {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.txtCommentStyle {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  color: #471F54;
+}
+
+/*#postContainerFriend2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-color: #471F54;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1.8px;
+  height: 191px;
+  width: auto;
+  left: 50%;
+  top: 165%;
+}*/
+
+.btnLikeAndCommentTrash{
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.btntTrash{
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}

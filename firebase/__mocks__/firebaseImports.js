@@ -1,0 +1,12 @@
+export const initializeApp = () => ({});
+export const getAuth = () => ({});
+export const createUserWithEmailAndPassword = () => Promise.resolve({});
+/*export const signInWithPopup = () => Promise.resolve({});*/
+export const signInWithPopup = jest.fn(() => Promise.resolve({}));
+/*export const GoogleAuthProvider = () => Promise.resolve({});*/
+export const GoogleAuthProvider = jest.fn(() => Promise.resolve({}));
+export const signInWithEmailAndPassword = jest.fn(() => Promise.resolve({}));
+export const getFirestore = () => ({});
+export const collection = () => Promise.resolve({});
+export const addDoc = () => Promise.resolve({});
+export const onSnapshot = jest.fn(() => Promise.resolve({}));

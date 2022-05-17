@@ -1,0 +1,152 @@
+.containerBackground {
+  background-color: #FB727C;
+  margin: 0px;
+  padding: 0px;
+}
+
+.containerRegister {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 17px;
+  width: 327px;
+  height: 498px;
+  background-color: rgba(255, 255, 255, 100);
+  box-shadow: 0px 0px 18px -8px black;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  color: #8E8989;
+}
+
+.txtRegister {
+  margin-top: 45px;
+}
+
+.infoRegister::placeholder {
+  color: #C5C5C5;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.questionReturnHome {
+  margin-top: 84px;
+}
+
+.text-error {
+  /*display: none;*/
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  margin-top: 6px;
+}
+
+#containerLogotype {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.logotypeRegister {
+  width: 294px;
+  height: 142px;
+  left: 50%;
+  /*margin-left: 52px;*/
+  margin-top: 28px;
+}
+
+.registerApp {
+  color: #8E8989;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  margin-top: 35px;
+}
+
+.txtAccount {
+  text-align: left;
+  color: #FB727C;
+  padding-left: 31px;
+}
+
+#buttonAccount {
+  cursor: pointer;
+  background-color: #471F54;
+  border-radius: 25px;
+  border: none;
+  height: 40px;
+  width: 180px;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 34px;
+}
+
+.infoRegister {
+  border-radius: 100px;
+  border-color: #471F54;
+  height: 41px;
+  width: 270px;
+  font-size: 18px;
+  margin-top: -9px;
+  /*padding-left: 18px;*/
+  text-align: center;
+}
+
+.textConditions {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  margin-top: 542px;
+  text-align: center;
+}
+
+.returnHome {
+  align-items: center;
+}
+
+#buttonReturnHome {
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+  /*height: 40px;
+  width: 180px;*/
+  color: white;
+  font-size: 16px;
+  /*text-align:center;*/
+  font-weight: bold;
+  /*margin-left: -45px;*/
+  /*margin-top: 700px;*/
+}
+
+.questionAccount {
+  /*margin-top: -31px;*/
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+/*SWEET ALERT CSS*/
+.txtConfirmSwal {
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  color: #8E8989;
+}
+
+.txtBtnConfirmSwal {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: -1px;
+}
+
+.confirmButtonStyle {
+  background-color: #471F54;
+  border-radius: 25px;
+  border: none;
+  height: 40px;
+  width: 180px;
+}
