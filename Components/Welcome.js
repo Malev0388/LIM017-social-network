@@ -26,6 +26,7 @@ export const Welcome = () => {
             </div>
     </main>
     </section>`;
+    
 
   const BackgroundMobile = document.createElement('main');
   BackgroundMobile.innerHTML = `<main>
