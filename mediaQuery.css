@@ -37,6 +37,11 @@
     background-size: cover;
   }
 
+  .loginBackground {
+    background: url("./img/bgLoginDesktop.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+
   .questionAccount {
     text-align: center;
     font-size: 18px;

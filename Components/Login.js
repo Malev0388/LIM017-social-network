@@ -30,7 +30,7 @@ export const Login = () => {
   </section>`;
   
   /*Container cerrar sesión*/
-  LoginMain.querySelector('#loginOutBtn').addEventListener('click', () => onNavigate('/'));
+  //LoginMain.querySelector('#loginOutBtn').addEventListener('click', () => onNavigate('/'));
     
   const postForm = document.getElementById("postForm");
   let editStatus = false;
@@ -56,7 +56,6 @@ export const Login = () => {
               <p id="txtFriend" class="txtFriendStyle">${task.contentUserPost}</p>
           </div>
               <div id="likesAndComments" class="likesAndCommentsStyle">
-                <button class="btn-Like" data-id="${doc.id}">🤍Like</button>
                     <button class="btn-Edit" data-id="${doc.id}">Editar</button>
                       <button class="btn-Trash" data-id="${doc.id}">Eliminar</button>
               </div>
@@ -106,6 +105,24 @@ export const Login = () => {
       
   });  
 
+  const backgroundLogin = document.getElementById('bodies');
+  const LoginBackground = document.createElement('section');
+  LoginBackground.innerHTML = `<section>
+      <main id="bgLogin" class="loginBackground">
+      </main>
+  </section>`;
+
+  LoginMain.appendChild(LoginBackground);
+    
+    //backgroundLogin.classList.remove('loginBackground');
+    backgroundLogin.classList.add('loginBackground');
+
+    /*Container cerrar sesión*/
+  LoginMain.querySelector('#loginOutBtn').addEventListener('click', () => {
+    backgroundLogin.classList.remove('loginBackground');
+    backgroundLogin.classList.add('bodyBackground');
+    onNavigate('/')
+});
 
  return LoginMain;
 

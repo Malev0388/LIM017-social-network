@@ -10,6 +10,14 @@
   justify-content: space-between;
 }
 
+.loginBackground{
+  background-color: white;
+}
+.loginBackgroundStyle{
+  background: url("./img/bgLoginDesktop.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
 .isotype {
   width: 133px;
   padding: 12px;
@@ -44,7 +52,7 @@
   height: 170px;
   width: 335px;
   left: 50%;
-  top: 24%;
+  top: 20%;
 }
 
 .userInfoPost {
@@ -94,15 +102,16 @@
   width: 79px;
   color: white;
   font-size: 15px;
-  margin: 19px;
+  /*margin: 19px;*/
 }
 
 #postContainerFriend1 {
   display: grid;
   align-items: center;
-  transform: translate(7%, 115%);
+  transform: translate(7%, 105%);
   height: 191px;
   width: auto;
+  margin-top: -4px;
 }
 
 .postFriendStyle {
@@ -227,4 +236,31 @@
   background-color: inherit;
   border: none;
   cursor: pointer;
+}
+
+@media (min-width:760px) {
+  #postForm {
+    top: 20%;
+    width: 742px;
+  }
+
+  .postFriendStyle {
+    width: 742px;
+  }
+
+  .likesAndCommentsStyle{
+    width: 742px;
+  }
+
+  .userInfoPost{
+    width: 703px;
+  }
+
+  #postContainerFriend1 {
+    left: 50%;
+    transform: translate(44%, 110%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

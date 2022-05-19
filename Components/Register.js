@@ -22,7 +22,7 @@ export const Register = () => {
               <button type="submit" id="buttonAccount">Crear cuenta</button>
               <p id="txtError" class="text-error"></p>
                 <div class="questionReturnHome">
-                  <p class="questionAccount">¿Ya tienes una cuenta?<button class="btnReturnHome" id="buttonReturnHome"><u>Ingresa aquí</u></button></p>
+                  <p class="questionAccount">¿Ya tienes una cuenta?<button id="buttonReturnHome"><u>Ingresa aquí</u></button></p>
                 </div>
          </div>
     </main>
@@ -51,12 +51,11 @@ export const Register = () => {
     registerWithEmail(loginEmail, loginPassword, loginName);
   });
 
-  RegisterSection.querySelector('#buttonReturnHome').addEventListener('click', () => onNavigate('/'));
-
-  RegisterSection.querySelector('.btnReturnHome').addEventListener('click', () => {
+  RegisterSection.querySelector('#buttonReturnHome').addEventListener('click', () => {
     const backgroundBody = document.getElementById('bodies');
-    backgroundBody.classlist.remove('containerBackground');
-    backgroundBody.classlist.add('bodyBackground');
+    backgroundBody.classList.remove('containerBackground');
+    backgroundBody.classList.add('bodyBackground');
+    onNavigate('/');
   });
 
   return RegisterSection;
