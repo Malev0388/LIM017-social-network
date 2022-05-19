@@ -31,8 +31,8 @@ export const Login = () => {
   
   /*Container cerrar sesión*/
   //LoginMain.querySelector('#loginOutBtn').addEventListener('click', () => onNavigate('/'));
-    
-  const postForm = document.getElementById("postForm");
+  const newContainerPost = LoginMain.querySelector("#newContainerPost");
+  const postForm = LoginMain.querySelector("#postForm");
   let editStatus = false;
   let id = '';
 
@@ -105,7 +105,7 @@ export const Login = () => {
       
   });  
 
-  const backgroundLogin = document.getElementById('bodies');
+  /*const backgroundLogin = document.getElementById('bodies');
   const LoginBackground = document.createElement('section');
   LoginBackground.innerHTML = `<section>
       <main id="bgLogin" class="loginBackground">
@@ -117,12 +117,12 @@ export const Login = () => {
     //backgroundLogin.classList.remove('loginBackground');
     backgroundLogin.classList.add('loginBackground');
 
-    /*Container cerrar sesión*/
+    /*Container cerrar sesión
   LoginMain.querySelector('#loginOutBtn').addEventListener('click', () => {
     backgroundLogin.classList.remove('loginBackground');
     backgroundLogin.classList.add('bodyBackground');
     onNavigate('/')
-});
+});*/
 
  return LoginMain;
 
