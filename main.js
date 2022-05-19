@@ -5,9 +5,9 @@ import { Login } from './Components/Login.js';
 const rootDiv = document.getElementById('root') ? document.getElementById('root') : document.createElement('div');
 
 const routes = {
-  '/': Welcome(),
-  '/register': Register(),
-  '/login': Login(),
+  '/': Welcome,
+  '/register': Register,
+  '/login': Login,
 };
 
 export const onNavigate = (pathname) => {
@@ -21,11 +21,11 @@ export const onNavigate = (pathname) => {
     rootDiv.removeChild(rootDiv.firstChild);
   }
 
-  rootDiv.appendChild(routes[pathname]);
+  rootDiv.appendChild(routes[pathname]());
 };
 
 
 window.addEventListener("DOMContentLoaded",()=>{
 const components = routes[window.location.pathname];
-rootDiv.appendChild(components);
+rootDiv.appendChild(components());
 });

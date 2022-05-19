@@ -45,7 +45,7 @@ export const Login = () => {
       newContainerPost.innerHTML = "";
       querySnapshot.forEach((doc) => {
       const task = doc.data();
-      newContainerPost.innerHTML += /*html*/
+      newContainerPost.innerHTML += 
       `<br>
       <section class="newContainerPost">
         <div id="postContainerFriend1">
